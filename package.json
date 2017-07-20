@@ -1,15 +1,68 @@
 {
-  "name": "react-native-swipeout",
-  "version": "2.1.4",
+  "_args": [
+    [
+      {
+        "raw": "react-native-swipeout@^2.1.4",
+        "scope": null,
+        "escapedName": "react-native-swipeout",
+        "name": "react-native-swipeout",
+        "rawSpec": "^2.1.4",
+        "spec": ">=2.1.4 <3.0.0",
+        "type": "range"
+      },
+      "/Users/dev/voxist-app"
+    ]
+  ],
+  "_from": "react-native-swipeout@>=2.1.4 <3.0.0",
+  "_id": "react-native-swipeout@2.1.4",
+  "_inCache": true,
+  "_location": "/react-native-swipeout",
+  "_nodeVersion": "6.9.4",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/react-native-swipeout-2.1.4.tgz_1500514139268_0.8559613157995045"
+  },
+  "_npmUser": {
+    "name": "silentcloud",
+    "email": "rjmuqiang@gmail.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-swipeout@^2.1.4",
+    "scope": null,
+    "escapedName": "react-native-swipeout",
+    "name": "react-native-swipeout",
+    "rawSpec": "^2.1.4",
+    "spec": ">=2.1.4 <3.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-swipeout/-/react-native-swipeout-2.1.4.tgz",
+  "_shasum": "4a229bec6678f23c2b6c4f280022e6252e96c2f6",
+  "_shrinkwrap": null,
+  "_spec": "react-native-swipeout@^2.1.4",
+  "_where": "/Users/dev/voxist-app",
+  "author": {
+    "name": "Dan Cormier"
+  },
+  "bugs": {
+    "url": "https://github.com/dancormier/react-native-swipeout/issues"
+  },
+  "dependencies": {
+    "react-tween-state": "^0.1.5"
+  },
   "description": "iOS-style swipeout buttons behind component",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "4a229bec6678f23c2b6c4f280022e6252e96c2f6",
+    "tarball": "https://registry.npmjs.org/react-native-swipeout/-/react-native-swipeout-2.1.4.tgz"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:dancormier/react-native-swipeout.git"
-  },
+  "gitHead": "6a960263a0b1f1611b2fe95c518e038e093690a3",
+  "homepage": "https://github.com/dancormier/react-native-swipeout",
   "keywords": [
     "react-native",
     "react-component",
@@ -19,13 +72,23 @@
     "swipe",
     "ui"
   ],
-  "author": "Dan Cormier",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/dancormier/react-native-swipeout/issues"
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "silentcloud",
+      "email": "rjmuqiang@gmail.com"
+    }
+  ],
+  "name": "react-native-swipeout",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dancormier/react-native-swipeout.git"
   },
-  "homepage": "https://github.com/dancormier/react-native-swipeout",
-  "dependencies": {
-    "react-tween-state": "^0.1.5"
-  }
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.1.4"
 }
