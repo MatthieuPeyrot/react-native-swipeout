@@ -57,7 +57,7 @@ const SwipeoutBtn = createReactClass({
 
     styleSwipeoutBtn.push([
       {
-        height: btn.height - 10,
+        height: btn.height - 5
         width: btn.width,
         elevation: 2,
         shadowColor: "#CCCCCC",
