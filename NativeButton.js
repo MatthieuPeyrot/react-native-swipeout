@@ -17,9 +17,8 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignSelf: "stretch",
     justifyContent: "center",
-    borderRadius: 4,
-    marginTop: 4,
-    marginLeft: 7
+    borderRadius: 5,
+    marginLeft: 5
   },
   textButton: {
     fontSize: 14,
