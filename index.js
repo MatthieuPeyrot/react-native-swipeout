@@ -4,6 +4,7 @@ import styles from './styles'
 
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import { ViewPropTypes } from "react-native";
 import createReactClass from 'create-react-class'
 
 import {
@@ -113,7 +114,7 @@ const Swipeout = createReactClass({
     onClose: PropTypes.func,
     right: PropTypes.array,
     scroll: PropTypes.func,
-    style: View.propTypes.style,
+    style: ViewPropTypes ? ViewPropTypes.style : View.propTypes.style,
     sensitivity: PropTypes.number,
     buttonWidth: PropTypes.number,
     disabled: PropTypes.bool
